@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Ribeye+Marrow');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: #6C7D7A;
+  height: 110vh;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #4AB6CE;
+  height: 150px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  /* justify-content: space-between;
+  align-items: center; */
+  display: flex;
+  background-image: url("./Pictures/swirly.png");
+  background-size: 1720px 200px;
+  /* position: bottom; */
+  /* font-family: "Cookie", cursive;
+  font-size: 60px; */
+  box-shadow: 3px 6px 14px 4px #555;
+}
+
+/* .Snack-logo {
+  height: 50px;
+  width: 50px;
+  background-image: url("./Pictures/Snack-Logo.jpeg");
+  background-size: cover;
+  display: flex;
+} */
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  align-self: flex-end;
+}
+
+.Span-font-link {
+  font-size: 23px;
+}
+
+.Home-link {
+  /* background-image: url("./Pictures/home-button-icon-png-23.png"); */
+  height: 20px;
+  width: 50px;
+  font-size: 25px;
+  display: flex;
+}
+
+
+.About-link {
+  /* background-image: url("./Pictures/about-button.jpg"); */
+  height: 20px;
+  width: 50px;
+  font-size: 25px;
+  display: flex;
+}
+
+.Shop-link {
+height: 20px;
+width: 20px;
+font-size: 25px;
+display: flex;
+/* padding: 60px;
+margin: -60px; */
+}
+
+.App-intro {
+  font-family: "Cookie", cursive;
+  font-size: 40px;
+  color: white;
+  /* display: flex; */
+  
+}
+
+/* .Candy-bar {
+  background-image: url("./candy-bar.jpg");
+  height: 220px;
+  width: 230px;
+} */
+
+
+.left-image-text {
+  width: 33%;
+  padding: 20px;
+  font-family: 'Ribeye Marrow', cursive;
+}
+
+.right-image-text {
+  width: 33%;
+  padding: 20px;
+  font-family: 'Ribeye Marrow', cursive;
+}
+
+.Pantry {
+  height: 550px;
+  width: 550px;
+  background-size: cover;
+  display: flex;
+  align-self: center;
+  box-shadow: 3px 6px 14px 4px #333;
+  cursor: pointer;
+}
+
+.Body-text {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-self: center; */
+  padding: 15px;
+  margin: 15px;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+

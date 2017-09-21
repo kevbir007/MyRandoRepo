@@ -1,0 +1,25 @@
+.product-list {
+    height: 60vh;
+    width: 33%;
+    margin: 60px;
+    background-color: lightgray;
+    float: left;
+    box-shadow: 3px 6px 14px 4px #333;
+
+    
+}
+
+.cart-list {
+    height: 60vh;
+    width: 33%;
+    margin: 60px;
+    background-color: lightgray;
+    float: right;
+    box-shadow: 3px 6px 14px 4px #333;
+;}
+
+li {
+    /* float: left; */
+    display: block;
+    font-size: 41px;
+}
